@@ -1,0 +1,17 @@
+[package]
+name = "live2d-zoo-builder"
+publish = false
+version = "1.0.0"
+authors = ["Aster <galaster@foxmail.com>"]
+edition = "2018"
+autobins = false
+
+[[bin]]
+name = "pack"
+path = "scripts/pack.rs"
+
+[[bin]]
+name = "format"
+path = "scripts/format.rs"
+
+[dependencies]

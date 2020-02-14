@@ -1,0 +1,21 @@
+{
+    "name": "live2d-zoo-workspace",
+    "private": true,
+    "scripts": {
+        "pre": "cargo test --color=always --no-run --package notedown-parser --lib pre_build && cargo fmt --all",
+        "build": "cargo build --release",
+        "test": "cargo test --release",
+        "fmt:rs": "cargo fmt --all",
+        "fmt": "prettier --write \"./**/*.{js,jsx,json}\"",
+        "fix": "cargo fix --allow-dirty",
+        "reset": "git reset Head~ --soft",
+        "pub": "cargo-publish-all --yes --allow-dirty"
+    },
+    "dependencies": {
+        "prettier": "^1.19.1"
+    },
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Aster <galaster@foxmail.com>",
+    "license": "CC"
+}
