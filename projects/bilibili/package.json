@@ -1,0 +1,15 @@
+{
+    "name": "live2d-widget-model-bilibili",
+    "version": "1.0.1",
+    "description": "bilibili 2233 models",
+    "author": "Aster <galaster@foxmail.com>",
+    "license": "CC0-1.0",
+    "homepage": "https://github.com/Moe-Net/live2d-zoo",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Moe-Net/live2d-zoo.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Moe-Net/live2d-zoo/issues"
+    }
+}
